@@ -5,6 +5,9 @@ on:
     types:
       - opened
       - closed
+    branches:
+      - master
+      - dev
   workflow_dispatch:
 
 jobs:
